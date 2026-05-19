@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-from tensorflow import keras
+import keras
 
 # Load model and preprocessor
 model = keras.models.load_model('model_final.keras')
